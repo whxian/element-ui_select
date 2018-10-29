@@ -1,11 +1,11 @@
-# 1. element-ui_select
+# Element-UI Select遇到的问题解决方法记录
 
-Element-UI Select下拉框点击事件不触发问题解决方法
+## 1. select下拉框点击事件不触发问题
 
 @click事件换成@click.native就可以了
 
 
-# 2. select下拉框出现/隐藏时触发
+## 2. select下拉框出现/隐藏时触发
 
 @visible-change  select下拉框出现/隐藏时触发。默认参数是点击时展开为true，关闭为false。
 
